@@ -86,3 +86,7 @@ header,
 .navbar:not(.top-nav-collapse) {
     background: transparent !important;
 }
+
+.w-100 {
+    height: 300px;
+}
