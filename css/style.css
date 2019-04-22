@@ -125,4 +125,9 @@ header,
     h4 {
         font-size: 0.9rem;
     }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 5rem !important;
+    }
 }
