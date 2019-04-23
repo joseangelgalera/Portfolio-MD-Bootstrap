@@ -85,13 +85,111 @@ header,
     }
 }
 
+@media (max-width: 1024px) {
+
+    html,
+    body,
+    header,
+    .view {
+        height: 23vh;
+    }
+
+    .display-3 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .h4,
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 5rem !important;
+    }
+
+    .card .card-body .card-text {
+        color: #747373;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+
+    html,
+    body,
+    header,
+    .view {
+        height: 39vh;
+    }
+
+    .display-3 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .h4,
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 5rem !important;
+    }
+
+    .card .card-body .card-text {
+        color: #747373;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 768px) {
+
+    html,
+    body,
+    header,
+    .view {
+        height: 31vh;
+    }
+
+    .display-3 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .h4,
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 5rem !important;
+    }
+
+    .card .card-body .card-text {
+        color: #747373;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+}
+
 @media (max-width: 740px) {
 
     html,
     body,
     header,
     .view {
-        height: 50vh;
+        height: 39vh;
     }
 
     .display-3 {
@@ -105,6 +203,41 @@ header,
         font-size: 0.8rem;
     }
 }
+
+
+
+@media (max-width: 360px) {
+
+    html,
+    body,
+    header,
+    .view {
+        height: 50vh;
+    }
+
+    .display-3 {
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .h4,
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 5rem !important;
+    }
+
+    .card .card-body .card-text {
+        color: #747373;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+}
+
 
 @media (max-width: 320px) {
 
@@ -124,5 +257,16 @@ header,
     .h4,
     h4 {
         font-size: 0.9rem;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 5rem !important;
+    }
+
+    .card .card-body .card-text {
+        color: #747373;
+        font-size: .8rem;
+        font-weight: 400;
     }
 }
